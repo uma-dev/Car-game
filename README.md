@@ -19,6 +19,9 @@ Hope you enjoy!
 
 ### What you need
 This program only needs a computer with **python** and **pygame** installed, If you don't know how to do it, here are some examples that can help. 
+<p>
+	![Screenshot from 2023-01-20 12-02-52](https://user-images.githubusercontent.com/22565959/213778656-6eb6b171-4fac-4513-acab-e979311e582b.png)
+</p>
 
 - Python 
   - [Installing Python on Windows](https://learn.microsoft.com/en-us/windows/python/beginners)
@@ -34,8 +37,9 @@ This program only needs a computer with **python** and **pygame** installed, If 
   As easy as it is, if you have not executed any python script before, take a look to the following tutorial:
   - [Execute Python scripts](https://pythonbasics.org/execute-python-scripts/)
   - After going to the root folder of the proyect type
-![Screenshot from 2023-01-20 12-01-44](https://user-images.githubusercontent.com/22565959/213778425-4bfe8d48-25f5-4d27-bf7a-d6d28a94cc0f.png)
-![Screenshot from 2023-01-20 12-02-52](https://user-images.githubusercontent.com/22565959/213778656-6eb6b171-4fac-4513-acab-e979311e582b.png)
+<p> 
+	![Screenshot from 2023-01-20 12-01-44](https://user-images.githubusercontent.com/22565959/213778425-4bfe8d48-25f5-4d27-bf7a-d6d28a94cc0f.png)
+</p>
 
   ```
   python3 Race.py 
@@ -45,6 +49,7 @@ This program only needs a computer with **python** and **pygame** installed, If 
   
   The blocks move to the car and also increase their lenght and also speed, as you can see above in the **thing_width** and **thing_speed** incremments. 
   You can set wathever values and conditions you want to customize the level changes.
+  
   ```
     if score % 5 == 0 and score < 20:
 				thing_speed += 0.8
@@ -54,10 +59,12 @@ This program only needs a computer with **python** and **pygame** installed, If 
 				thing_width += (score)
 			if score > 90:
 				pygame.mixer.Sound.play (magic)
-  ``
+  ```
   
- ![Screenshot from 2023-01-20 12-02-39](https://user-images.githubusercontent.com/22565959/213778562-2d267fe4-5cad-4be6-8729-b1bb30db2663.png)
-  
+ <p>
+ 	![Screenshot from 2023-01-20 12-02-39](https://user-images.githubusercontent.com/22565959/213778562-2d267fe4-5cad-4be6-8729-b1bb30db2663.png)
+ </p>
+ 
   The above conditions were setted to make almost imposible to pass the **100** score in levcel 1, **85** in level 2 and **69** in level 3, so if you do it, the car picture change to a better image as you can see in the following code:
    ```
    if score > 99 and level == 1 or score >85 and level == 2 or score > 69 and level == 3:
@@ -67,4 +74,5 @@ This program only needs a computer with **python** and **pygame** installed, If 
 			block = (5,70,20)
 			wins += 1
    ```
+   
   Please, feel free to and the values and conditions you want, and most important enjoy!
