@@ -20,7 +20,7 @@ Hope you enjoy!
 ### What you need
 This program only needs a computer with **python** and **pygame** installed, If you don't know how to do it, here are some examples that can help. 
 <p align="center">
-	<img alt="Race.py" src="ttps://user-images.githubusercontent.com/22565959/213778656-6eb6b171-4fac-4513-acab-e979311e582b.png">
+	<img alt="Race.py" src="https://user-images.githubusercontent.com/22565959/213778656-6eb6b171-4fac-4513-acab-e979311e582b.png">
 </p>
 
 - Python 
