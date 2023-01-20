@@ -7,17 +7,10 @@ This is a first look into 2D simple games and a easy **introduction to programmi
 The code was written with a FP _programming paradigm_ in order to ilustrate it's characteristics but it could be rewritten using the _OOP paradigm_. Keep in mind that it would require more code, more knowledge (wich is not the scope of this project) but it'll be more scalable and maybe more legible.
 Hope you enjoy!
 
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/uma-dev/Car-game/blob/master/raceCar2.png">
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/uma-dev/Car-game/blob/master/raceCar.png">
-  <p style="text-align:center;"> <img alt="Race car" class="center" src="https://github.com/uma-dev/Car-game/blob/master/raceCar.png"></p>
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/uma-dev/Car-game/blob/master/raceCar2.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/uma-dev/Car-game/blob/master/raceCar.png">
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <img alt="Shows two types of cars upon the theme" src="https://github.com/uma-dev/Car-game/blob/master/raceCar.png">
 </picture>
 
 
