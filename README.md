@@ -38,7 +38,7 @@ This program only needs a computer with **python** and **pygame** installed, If 
   - [Execute Python scripts](https://pythonbasics.org/execute-python-scripts/)
   - After going to the root folder of the proyect type
 <p> 
-	![Screenshot from 2023-01-20 12-01-44](https://user-images.githubusercontent.com/22565959/213778425-4bfe8d48-25f5-4d27-bf7a-d6d28a94cc0f.png)
+	<img alt="Race.py" src="https://user-images.githubusercontent.com/22565959/213778425-4bfe8d48-25f5-4d27-bf7a-d6d28a94cc0f.png">
 </p>
 
   ```
@@ -60,10 +60,9 @@ This program only needs a computer with **python** and **pygame** installed, If 
 			if score > 90:
 				pygame.mixer.Sound.play (magic)
   ```
-  
- <p>
- 	![Screenshot from 2023-01-20 12-02-39](https://user-images.githubusercontent.com/22565959/213778562-2d267fe4-5cad-4be6-8729-b1bb30db2663.png)
- </p>
+ <p> 
+	<img alt="Race.py" src="https://user-images.githubusercontent.com/22565959/213778562-2d267fe4-5cad-4be6-8729-b1bb30db2663.png">
+</p>
  
   The above conditions were setted to make almost imposible to pass the **100** score in levcel 1, **85** in level 2 and **69** in level 3, so if you do it, the car picture change to a better image as you can see in the following code:
    ```
@@ -75,4 +74,4 @@ This program only needs a computer with **python** and **pygame** installed, If 
 			wins += 1
    ```
    
-  Please, feel free to and the values and conditions you want, and most important enjoy!
+  Feel free to add the values and conditions you want, and make the most out of it!
