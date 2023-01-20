@@ -54,7 +54,7 @@ This program only needs a computer with **python** and **pygame** installed, If 
 				pygame.mixer.Sound.play (magic)
 
   ```
-  The above conditions are made to make almost imposible to pass the **100** score, so if you do it, the car picture change to a better image as you can see in the following code:
+  The above conditions were setted to make almost imposible to pass the **100** score in levcel 1, **85** in level 2 and **69** in level 3, so if you do it, the car picture change to a better image as you can see in the following code:
    ```
    if score > 99 and level == 1 or score >85 and level == 2 or score > 69 and level == 3:
 			animation ("¡New Car!")
