@@ -37,7 +37,8 @@ This program only needs a computer with **python** and **pygame** installed, If 
   As easy as it is, if you have not executed any python script before, take a look to the following tutorial:
   - [Execute Python scripts](https://pythonbasics.org/execute-python-scripts/)
   - After going to the root folder of the proyect type
-<p> 
+  
+<p align="center"> 
 	<img alt="Race.py" src="https://user-images.githubusercontent.com/22565959/213778425-4bfe8d48-25f5-4d27-bf7a-d6d28a94cc0f.png">
 </p>
 
@@ -60,7 +61,7 @@ This program only needs a computer with **python** and **pygame** installed, If 
 			if score > 90:
 				pygame.mixer.Sound.play (magic)
   ```
- <p> 
+<p align="center"> 
 	<img alt="Race.py" src="https://user-images.githubusercontent.com/22565959/213778562-2d267fe4-5cad-4be6-8729-b1bb30db2663.png">
 </p>
  
