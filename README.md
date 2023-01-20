@@ -37,14 +37,13 @@ This program only needs a computer with **python** and **pygame** installed, If 
   As easy as it is, if you have not executed any python script before, take a look to the following tutorial:
   - [Execute Python scripts](https://pythonbasics.org/execute-python-scripts/)
   - After going to the root folder of the proyect type
-  
-<p align="center"> 
-	<img alt="Race.py" src="https://user-images.githubusercontent.com/22565959/213778425-4bfe8d48-25f5-4d27-bf7a-d6d28a94cc0f.png">
-</p>
 
   ```
   python3 Race.py 
   ```
+<p align="center"> 
+	<img alt="Race.py" src="https://user-images.githubusercontent.com/22565959/213778425-4bfe8d48-25f5-4d27-bf7a-d6d28a94cc0f.png">
+</p>
 
 ### Adding more levels
   
