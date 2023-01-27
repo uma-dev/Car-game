@@ -36,7 +36,7 @@ This program only needs a computer with **python** and **pygame** installed, If 
 ### Executing
   As easy as it is, if you have not executed any python script before, take a look to the following tutorial:
   - [Execute Python scripts](https://pythonbasics.org/execute-python-scripts/)
-  - After going to the root folder of the proyect type
+  - After going to the `root` folder of the proyect type
 
   ```
   python3 Race.py 
