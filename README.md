@@ -1,4 +1,4 @@
-# Car-game
+# A bit Race game!
 
 ## Overview
 
