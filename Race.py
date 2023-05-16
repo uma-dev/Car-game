@@ -10,7 +10,7 @@ pause = False
 level = 1
 wins = 0
  #(R,G,B)
-skyBlue = (190,190,240)
+skyBlue = (225, 245, 254)
 black = (0,0,0)
 white = (245,245,245)
 blue = (0,0,150)
@@ -19,16 +19,16 @@ block = (3,20,90)
 yellow = (255,100,30)
 brightYellow = (255, 190,100)
 red = (150,0,0)
-brightRed = (255,30,30)
+brightRed = (250,30,30)
 green = (0,140,0)
-brightGreen = (30,255,30)
+brightGreen = (30,240,30)
 gray = (200,200,220)
 brightGray = (190,190,235)
 
 # settings and objects
 pygame.init()
 gameDisplay = pygame.display.set_mode( ( display_width, display_height) )
-pygame.display.set_caption('\t\t\t\t\t\t\t\tCAR')
+pygame.display.set_caption('CAR')
 clock = pygame.time.Clock()
 carImg = pygame.image.load('raceCar.png')
 crashSound = pygame.mixer.Sound ("Crash.ogg")
@@ -142,13 +142,13 @@ def button(message, x, y, width, height, ic, ac, action, color):
 	click = pygame.mouse.get_pressed()
 
 	if x+width > mouse[0] > x and y+height > mouse[1] > y:
-		pygame.draw.rect(gameDisplay, ac,(x,y,width,height))
+		pygame.draw.rect(gameDisplay, ac,(x,y,width,height), border_radius=4)
 		if click[0] == 1:
 			action()
 	else:
-		pygame.draw.rect(gameDisplay, ic,(x,y,width,height))
+		pygame.draw.rect(gameDisplay, ic,(x,y,width,height), border_radius=12)
 
-	smallText = pygame.font.SysFont("comicsansms",28)
+	smallText = pygame.font.SysFont("arial",22)
 	textSurf, textRect = text_objects2 (message, smallText, color)
 	textRect.center = ( (x+(width/2)), (y+(height/2)) )
 	gameDisplay.blit(textSurf, textRect)
@@ -212,7 +212,7 @@ def gameIntro():
 
 		button ("GO", 150,470,100,50, green, brightGreen, gameLoop, white)
 		button ("Level", 342,470,100,50, blue, brightBlue, gameLevel, white )
-		button ("QUIT", 550,470,100,50, red, brightRed, quitGame, white)
+		button ("Quit", 550,470,100,50, red, brightRed, quitGame, white)
 
 		pygame.display.update()
 		clock.tick(30)
