@@ -69,7 +69,7 @@ You can set whatever values and conditions you want to customize the level chang
  <img alt="Race.py" src="https://user-images.githubusercontent.com/22565959/213778562-2d267fe4-5cad-4be6-8729-b1bb30db2663.png">
 </p>
 
-The above conditions were setted to make almost impossible to pass the **100** score in level 1, **85** in level 2 and **69** in level 3, so if you do it, the car picture change to a better image as you can see in the following code:
+The above conditions were setted to make really hard to pass the **100** score in level 1, **85** in level 2 and **69** in level 3, so if you do it, the car picture change to a better image as you can see in the following code:
 
 ```
 if score > 99 and level == 1 or score >85 and level == 2 or score > 69 and level == 3:
