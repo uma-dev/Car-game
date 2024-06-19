@@ -39,7 +39,7 @@ This program only needs a computer with **python** and **pygame** installed, If 
 As easy as it is, if you have not executed any python script before, take a look to the following tutorial:
 
 - [Execute Python scripts](https://pythonbasics.org/execute-python-scripts/)
-- After going to the `root` folder of the proyect type
+- After going to the `root` folder of the project type
 
 ```
 python3 Race.py
@@ -51,8 +51,8 @@ python3 Race.py
 
 ### Adding more levels
 
-The blocks chases the car while increasing their length and speed, as you can see above in the **thing_width** and **thing_speed** incremments.
-You can set wathever values and conditions you want to customize the level changes.
+The blocks chases the car while increasing their length and speed, as you can see above in the **thing_width** and **thing_speed** increments.
+You can set whatever values and conditions you want to customize the level changes.
 
 ```
   if score % 5 == 0 and score < 20:
@@ -69,7 +69,7 @@ You can set wathever values and conditions you want to customize the level chang
  <img alt="Race.py" src="https://user-images.githubusercontent.com/22565959/213778562-2d267fe4-5cad-4be6-8729-b1bb30db2663.png">
 </p>
 
-The above conditions were setted to make almost imposible to pass the **100** score in level 1, **85** in level 2 and **69** in level 3, so if you do it, the car picture change to a better image as you can see in the following code:
+The above conditions were setted to make almost impossible to pass the **100** score in level 1, **85** in level 2 and **69** in level 3, so if you do it, the car picture change to a better image as you can see in the following code:
 
 ```
 if score > 99 and level == 1 or score >85 and level == 2 or score > 69 and level == 3:
